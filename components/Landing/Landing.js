@@ -9,6 +9,7 @@ import EventIcon from '@material-ui/icons/Event';
 const styles = theme => ({
     root: {
         // height:"100%",
+        margin: '0px',
         height: "720px",
         backgroundImage: 'url("static/img/hogwarts.png")',
         backgroundSize:'cover',
@@ -21,14 +22,15 @@ const styles = theme => ({
       // backgroundImage: 'url("static/img/logo.png")',
       margin: '0px',
     //   marginTop: '-80px',
-      fontSize:'3.5rem',
+      fontSize:'3rem',
       fontFamily: 'Harry',
-      letterSpacing: '0.2em'
+      letterSpacing: '0.3em'
     },
     dates: {
         position: 'absoulte',
         bottom: '10px',
-        fontFamily: 'Helvetica',
+        fontFamily: 'Harry',
+        fontSize:'1.5rem'
     },
     logo: {
       // height: "1500px",
@@ -51,10 +53,10 @@ function Landing(props){
           <AlertDialog/>
           <div className={classes.logo}></div>
           <div className='content'>
-            <h3 className={classes.heading} style={{fontSize:'4.5rem', margin:'20px 0'}}>Avesh</h3>
+            <h3 className={classes.heading} style={{fontSize:'6rem', margin:'20px 0'}}>Avesh</h3>
             <h3 className={classes.heading}>Chapter 4</h3>
             <Typing speed={150}>
-                <h1>THE CHAMBER OF SECRETS IS GOING TO BE REVEALED SOON...</h1>
+                <h1 style={{letterSpacing:'0.2rem'}}>THE CHAMBER OF SECRETS IS GOING TO BE REVEALED SOON...</h1>
             </Typing>
             <div className={classes.dates} style={{display: 'flex', justifyContent: 'center', alignItems: 'center',marginTop:'10%'}}>
                 <div>

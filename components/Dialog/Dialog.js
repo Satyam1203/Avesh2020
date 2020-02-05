@@ -10,6 +10,7 @@
     import ContactsIcon from '@material-ui/icons/Contacts';
     import ButtonBase from '@material-ui/core/ButtonBase';
     import EmailIcon from '@material-ui/icons/Email';
+    import InstagramIcon from '@material-ui/icons/Instagram';
     import { withStyles } from '@material-ui/styles';
 
     const styles = {
@@ -54,7 +55,8 @@
             <DialogContentText id="alert-dialog-description" style={{textAlign: 'center'}}>
                 <span className='harryFont'>Rishabh Singh <br /><strong>+91 8517817641</strong><br />
                 Satyam Lachhwani <br /><strong>+91 9770977224</strong></span><br /><br />
-                <span><EmailIcon style={{color:"#f00",position:'relative',paddingTop: 8}}></EmailIcon> <br/><strong >aveshaayam2k20@gmail.com</strong></span>
+                <span><EmailIcon style={{color:"#f00",position:'relative',paddingTop: 8}}></EmailIcon> <br/><strong >aveshaayam2k20@gmail.com</strong></span><br />
+                <span><InstagramIcon style={{color:"#f00",position:'relative',paddingTop: 8}} /> <br/><strong><a href="https://www.instagram.com/aveshgecr/" style={{textDecoration: 'none', color: 'grey'}}>aveshgecr</a></strong></span>
             </DialogContentText>
             </DialogContent>
             <DialogActions>

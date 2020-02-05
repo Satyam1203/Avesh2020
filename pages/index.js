@@ -5,7 +5,7 @@ import Landing from '../components/Landing/Landing';
 class Index extends React.Component {
   render(){
     return (
-      <div>
+      <div style={{margin: '0px'}}>
         <Landing />
       </div>
     );
