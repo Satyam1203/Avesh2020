@@ -47,7 +47,7 @@
             onClose={handleClose}
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description" 
-            fullWidth= 'true'
+            fullWidth={true}
             maxWidth= "md"
         >
             <DialogTitle id="alert-dialog-title"><span className='harryFont' style={{fontSize:'2.5rem',borderBottom: '2px solid grey'}}>Contact Us</span></DialogTitle>
