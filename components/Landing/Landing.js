@@ -47,6 +47,7 @@ function Landing(props){
         <Head>
           {/* <link href="https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap" rel="stylesheet"></link> */}
           <title>Avesh: Chapter 4</title>
+          <link rel="stylesheet" href="static/styles.css" />
         </Head>
         <div className={classes.root}>
           <img src='../../static/img/logo2.png' width='200' />
